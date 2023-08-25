@@ -7,16 +7,16 @@
     <style>
         table{
             border:1px sold black;
-        
+        border-collapse: collapse;
         width: 100%;
         }
         
-        .tc1, .tc2,.tc3{
+        .tc1, .center,.right{
             width:33%; border:1px solid black; padding: 1px;
         }
-        .tc2{text-align: center;}.tc3{text-align: right;}
+        .center{text-align: center;}.right{text-align: right;}
     #table-2 {
-       border-collapse: collapse;
+       
         height: 100px;
         margin-top:30px;
     }
@@ -31,13 +31,13 @@
 <body>
     <h1 align="center">HTML Assignment #3</h1>
     <table class="middle" id="table-1" style="border-collapse: collapse;">
-        <tr><td id="t11" class="tc1">left</td><td id="t12" class="tc2">center</td><td id="t13" class="tc3">right</td></tr>
-        <tr><td id="" class="tc1">left</td><td id="" class="tc2">center</td><td id="" class="tc3">right</td></tr>
-        <tr><td id="" class="tc1">left</td><td id="" class="tc2">center</td><td id="" class="tc3">right</td></tr>
+        <tr><td id="t11" class="tc1">left</td><td id="t12" class="center">center</td><td id="t13" class="right">right</td></tr>
+        <tr><td id="" class="tc1">left</td><td id="" class="center">center</td><td id="" class="right">right</td></tr>
+        <tr><td id="" class="tc1">left</td><td id="" class="center">center</td><td id="" class="right">right</td></tr>
     </table>
 
 
-    <table class="middle" id="table-2" border="1px">
+    <table id="table-2" class="middle" border="1px">
         <tr><td id="t21" colspan="6"></td></tr>
         <tr>
             <td rowspan="4"></td><td></td<td></td><td></td><td></td><td></td>
@@ -47,7 +47,7 @@
         <tr><td></td><td></td><td></td><td></td><td></td></tr>
         <tr><td colspan="6"></td></tr>
     </table>
-    <table class="middle"id="table-3" style="padding: 1px;border-spacing: 1px;height: 150px;" border="1px" >
+    <table id="table-3" class="middle" style="padding: 1px;border-spacing: 1px;height: 150px;" border="1px" >
         <tr style="height:20%;background-color: green;"><td></td></tr>
         <tr><td id="t-image" align="center"><img src="https://www2.d125.org/applied_arts/teched/courses/WEB/portfolios/2013_FallP3/Luthra%20Portfolio/images-1.jpeg" height="100"></td></tr>
         <tr><td style="height:15px;background-color:blue;"></td></tr>
